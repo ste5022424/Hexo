@@ -87,3 +87,11 @@ menu:
   archives: /archives
   categories: /categories
   tags: /tags
+
+
+leancloud_counter_security:
+  enable_sync: true
+  app_id: h6yRPpEndM1pbmEEM7qHeljE-gzGzoHsz
+  app_key: LNI4M5AgTJVVqPJot8oBWNIO
+  username:
+  password:
