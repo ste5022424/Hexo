@@ -184,3 +184,5 @@ Hexo Them :https://hexo.io/themes/index.html
 [用Hexo + Github Pages搭建個人部落格](https://yogapan.github.io/2017/08/11/%E7%94%A8Hexo-Github-Pages%E6%90%AD%E5%BB%BA%E5%80%8B%E4%BA%BA%E9%83%A8%E8%90%BD%E6%A0%BC/#comments)
 
 [Hexo的NexT主题个性化：添加文章阅读量](http://www.jeyzhang.com/hexo-next-add-post-views.html)
+
+[Sign up to Leancloud and create an app](https://github.com/theme-next/hexo-theme-next/blob/master/docs/LEANCLOUD-COUNTER-SECURITY.md)

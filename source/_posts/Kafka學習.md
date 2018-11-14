@@ -20,7 +20,8 @@ tags:
 > 消費者向 Kafka 讀取消息
   #### Conusumer Group
 > 消費者群組
----
+
+<!--more-->
 
 ### Kafka Client
 * Confluent.Kafka
@@ -32,7 +33,7 @@ tags:
 * Kafka Tool
     * http://www.kafkatool.com/
 
----
+
 ## 參考網站 
 [Kafka剖析（一）：Kafka背景及架构介绍](http://www.infoq.com/cn/articles/kafka-analysis-part-1)
 [kafka](http://kafka.apache.org/intro)
