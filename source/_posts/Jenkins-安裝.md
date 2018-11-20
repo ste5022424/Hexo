@@ -12,12 +12,12 @@ tags:
 ### 安裝 jenkins
 
 ```
-docker run --name myjenkins -p 8080:8080 -p 50000:50000 -v /var/jenkins_home jenkins
+docker run -d --name myjenkins -p 8080:8080 -p 50000:50000 -v /var/jenkins_home jenkins
 ```
      
 ### 取得密碼(initialAdminPassword)
 ```    
-$ docker exec jenkins-master cat /var/jenkins_home/secrets/initialAdminPassword
+docker exec myjenkins cat /var/jenkins_home/secrets/initialAdminPassword
 ```
 
 ### 進入Jenkins

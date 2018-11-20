@@ -5,6 +5,7 @@ categories:
 - 學習
 tags: 
 - Go
+- Visual Studio Code
 ---
 # GO lang Hello World !
 
