@@ -21,6 +21,11 @@ tags:
 
 ![](https://i.imgur.com/EVuhZc4.png)
 
+```
+msg = "Hello world~"
+print(msg)
+```
+
 ### F5 執行就可以看到 hello world
 ![](https://i.imgur.com/RCTdYm9.png)
 

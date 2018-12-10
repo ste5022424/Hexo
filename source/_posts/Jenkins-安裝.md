@@ -1,7 +1,8 @@
 ---
 title: '使用Docker 安裝 Jenkins'
 date: 2018-10-19 11:50:40
-categories: 筆記
+categories: 
+- 筆記
 tags: 
 - Jenkins
 - Docker
@@ -12,7 +13,7 @@ tags:
 ### 安裝 jenkins
 
 ```
-docker run -d --name myjenkins -p 8080:8080 -p 50000:50000 -v /var/jenkins_home jenkins
+docker run -d -v jenkins_home:/var/jenkins_home -p 8080:8080 -p 50000:50000 jenkins/jenkins:lts
 ```
      
 ### 取得密碼(initialAdminPassword)
@@ -25,7 +26,7 @@ http://127.0.0.1:8080/
 
 
 ## 參考網址
-[Jenkins On Doker](https://hub.docker.com/_/jenkins/)
+[Jenkins On Doker](https://github.com/jenkinsci/docker/blob/master/README.md)
 [Get Started with Jenkins 2.0 with Docker](https://www.cloudbees.com/blog/get-started-jenkins-20-docker)
 
 

@@ -1,9 +1,9 @@
 ---
 title: '升級 Jenkins ver. 2.151 發生問題'
 date: 2018-11-20 16:49:02
-categories:
+categories: 
 - 筆記
-tags:
+tags: 
 - Jenkins
 ---
 # 升級 Jenkins ver. 2.151 發生問題
@@ -15,6 +15,7 @@ org.apache.commons.jelly.JellyTagException:jar:file:/D:/Jenkins/war/WEB-INF/lib/
 ## issue
 
 https://issues.jenkins-ci.org/browse/JENKINS-54708
+https://issues.jenkins-ci.org/browse/JENKINS-54686?focusedCommentId=354378&page=com.atlassian.jira.plugin.system.issuetabpanels%3Acomment-tabpanel#comment-354378
 
 ### 問題是發生SSH Slaves版本(1.29.0)不相容，所以降版至(1.28.1)就可以了
 >因為jenkins掛掉了，所以要手動更新

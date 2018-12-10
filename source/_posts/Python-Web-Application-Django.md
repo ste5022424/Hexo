@@ -13,7 +13,7 @@ tags:
 ### 建立專案
 ```
 django-admin startproject mysite
-```
+```mysite/urls.py
 ![](https://i.imgur.com/BYPZQIH.png)
 
 ### 啟動 Server
@@ -32,7 +32,7 @@ python manage.py startapp polls
 ```
 ![](https://i.imgur.com/upH5XoD.png)
 
-#### 建立一個 View
+#### 建立一個 views.py
 
 ```
 from django.http import HttpResponse
@@ -42,8 +42,7 @@ def index(request):
     return HttpResponse("Hello, world. You're at the polls index.")
 ```
 
-
-![](https://i.imgur.com/fDb7ZSY.png)
+![](https://i.imgur.com/V47boWo.png)
 
 #### 建立一個 urls.py
 
@@ -56,10 +55,10 @@ urlpatterns = [
     path('', views.index, name='index'),
 ]
 ```
-![](https://i.imgur.com/V47boWo.png)
 
+![](https://i.imgur.com/fDb7ZSY.png)
 
-##### 修改 mysite/urls.py¶
+##### 修改 mysite/urls.py
 
 ```
 from django.contrib import admin

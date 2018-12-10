@@ -76,6 +76,9 @@ SonarQube.Scanner.MSBuild.exe end
 ![](https://i.imgur.com/wZsXqhA.png)
 
 
+![](https://i.imgur.com/yCmU7y8.png)
+
+
 # 參考
 
 [SonarQube](https://zh.wikipedia.org/wiki/SonarQube)

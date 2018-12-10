@@ -21,8 +21,6 @@ tags:
 
 ![](https://i.imgur.com/XF9AmNd.png)
 
-<!--more-->
-
 ## Image 映像檔
 
 > 映像檔一個唯讀的板模，裏面包含了容器內的所有應用程式
