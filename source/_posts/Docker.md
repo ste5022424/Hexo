@@ -1,7 +1,8 @@
 ---
 title: Docker 介紹
 date: 2018-10-19 13:44:56
-categories: 筆記
+categories: 
+- 筆記
 tags:
 - Docker
 ---
