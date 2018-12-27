@@ -46,11 +46,10 @@ server {
 }
 ```
 
-
 ## Run Docker Nginx
 
 ```
-docker run --name proxy_nginx -v /tmp/nginx_reverseproxy/nginx.conf:/etc/nginx/nginx.conf:ro -p 8088:80 -d nginx
+docker run --name proxy_nginx -v /nginx_reverseproxy/nginx.conf:/etc/nginx/nginx.conf:ro -p 8088:80 -d nginx
 ```
 ### 瀏覽 Yourhost:8088
 ![](https://i.imgur.com/imLE42t.png)
