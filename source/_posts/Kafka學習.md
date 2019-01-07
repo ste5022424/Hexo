@@ -21,8 +21,6 @@ tags:
   #### Conusumer Group
 > 消費者群組
 
-<!--more-->
-
 ### Kafka Client
 * Confluent.Kafka
     * https://cwiki.apache.org/confluence/display/KAFKA/Clients#Clients-.NET

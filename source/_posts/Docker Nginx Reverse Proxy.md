@@ -10,8 +10,6 @@ tags:
 
 ## Docker Nginx Reverse Proxy
 
-### 建立 nginx.conf
-
 #### 建立 nginx_reverseproxy 資料夾 
 ```
 mkdir nginx_reverseproxy
@@ -51,8 +49,30 @@ server {
 ```
 docker run --name proxy_nginx -v /nginx_reverseproxy/nginx.conf:/etc/nginx/nginx.conf:ro -p 8088:80 -d nginx
 ```
+
 ### 瀏覽 Yourhost:8088
 ![](https://i.imgur.com/imLE42t.png)
+
+
+## 使用 Dockerfile 建立 image & docker run container
+
+#### Dockerfile
+
+```
+FROM nginx
+ADD nginx.conf /etc/nginx/nginx.conf
+```
+
+#### build
+
+```
+docker build -t nginx_dockerfile:v1 .
+```
+#### docker run
+
+```
+docker run --name nginx_dockerfile -p 8089:80 -d nginx_dockerfile:v1
+```
 
 # 參考
 

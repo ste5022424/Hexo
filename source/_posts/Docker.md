@@ -14,8 +14,6 @@ tags:
 
 [https://www.docker.com/](https://www.docker.com/ "https://www.docker.com/")
 
-<!--more-->
-
 ## Container 容器
 
 > Container技術採取共用Host OS ，不需在每一個Container內執行Guest OS，而是在OS內的核心系統層來打造虛擬執行環境，也被稱為是OS層的虛擬化技術。

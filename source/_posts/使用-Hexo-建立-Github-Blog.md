@@ -23,8 +23,6 @@ npm install hexo-cli -g
 ```
 ![](https://i.imgur.com/5rz5CHP.png)
 
-<!--more-->
-
 ### 建立專案
 ```
 hexo init D:\\blog

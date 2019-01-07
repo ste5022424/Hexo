@@ -14,7 +14,9 @@ tags:
 
 ```
 mkdir jenkins_home
-docker run -d -v jenkins_home:/var/jenkins_home -p 8080:8080 --name myjenkins -p 50000:50000 jenkins/jenkins:lts
+chmod 777 jenkins_home/
+docker run -d -p 8080:8080 -p 50000:50000 -v /jenkins_home:/var/jenkins_home --name myjenkins jenkins
+
 ```
      
 ### 取得密碼(initialAdminPassword)

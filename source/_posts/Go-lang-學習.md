@@ -17,9 +17,7 @@ https://golang.org/
 
 ![](https://i.imgur.com/nqkLVtr.png)
 
-<!--more-->
-
-2. 選擇自己的作業系統
+1. 選擇自己的作業系統
 
 ![](https://i.imgur.com/L4Xbr7h.png)
 

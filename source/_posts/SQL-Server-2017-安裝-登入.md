@@ -13,7 +13,6 @@ https://www.microsoft.com/zh-tw/sql-server/sql-server-downloads
 
 ![](https://i.imgur.com/DSjWrRS.png)
 
-<!--more-->
 
 ## 2. 安裝 
 

@@ -11,8 +11,6 @@ tags:
 ## AutoMapper
 > 兩個 class 要對映，可以使用linq來寫，但是當欄位一多的時候，就要寫的很多，這時候就可以使用 AutoMapper。
 
-<!--more-->
-
 ```
 private class MyClass
 {
