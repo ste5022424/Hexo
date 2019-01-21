@@ -2,7 +2,7 @@
 title: Docker compose Run Redis
 date: 2018-12-12 16:32:46
 categories:
-- 筆記
+- Redis
 tags:
 - Docker
 - Redis
@@ -19,18 +19,17 @@ tags:
  cd composeredis
  vi docker-compose.yml
 ```
-### Dockerfile
+### docker-compose.yml
 
 ```
 version: "3"
 services:
-  redis:0000000.
+  redis:
     image: redis
     ports: 
      - "1233:6379"
     volumes: 
      - "./tmp/redis:/data"
-
 ```
 ### docker-compse run redis
 ```

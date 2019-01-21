@@ -2,7 +2,7 @@
 title: .Net Core SKD For Linux
 date: 2018-12-28 12:02:10
 categories:
-- 筆記
+- .net core
 tags:
 - .net core
 - Linux build

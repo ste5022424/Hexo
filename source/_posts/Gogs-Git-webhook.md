@@ -2,7 +2,7 @@
 title: Gogs Git webhook
 date: 2018-11-28 13:46:39
 categories:
-- 筆記
+- Gogs
 tags:
 - Gogs
 - webhook

@@ -2,7 +2,7 @@
 title: GO lang Hello World
 date: 2018-10-17 17:27:08
 categories:
-- 學習
+- Go
 tags: 
 - Go
 - Visual Studio Code

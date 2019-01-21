@@ -2,7 +2,7 @@
 title: Gitea
 date: 2018-12-25 11:28:29
 categories:
-- 筆記
+- Gitea
 tags:
 - Gitea
 - Git

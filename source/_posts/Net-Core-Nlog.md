@@ -2,10 +2,10 @@
 title: .Net Core Nlog
 date: 2019-01-04 14:26:39
 categories:
-- 筆記
+- .net core
 tags:
-- Nlog
 - .Net Core
+- Nlog
 ---
 ## .Net Core Nlog
 

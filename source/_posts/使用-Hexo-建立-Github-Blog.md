@@ -2,7 +2,7 @@
 title: 使用 Hexo 建立 Github Blog
 date: 2018-10-17 17:23:06
 categories:
-- 學習
+- Hexo
 tags:
 - Hexo
 ---

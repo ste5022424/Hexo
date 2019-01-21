@@ -2,7 +2,7 @@
 title: AutoMapper
 date: 2018-11-08 11:08:28
 categories:
-- 筆記
+- AutoMapper
 tags:
 - AutoMapper
 - C#

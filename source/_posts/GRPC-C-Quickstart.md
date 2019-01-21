@@ -2,7 +2,7 @@
 title: 'GRPC C# Quickstart'
 date: 2018-12-11 14:15:11
 categories:
-- 筆記
+- GRPC
 tags:
 - GRPC
 ---

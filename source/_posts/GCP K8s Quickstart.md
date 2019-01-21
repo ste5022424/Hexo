@@ -2,7 +2,7 @@
 title: GCP K8s Quickstart
 date: 2018-12-28 15:19:04
 categories:
-- 學習
+- K8S
 tags:
 - K8S
 - GCP

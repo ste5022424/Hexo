@@ -1,13 +1,12 @@
 ---
-title: 'SonarQube 程式碼品質分析工具 使用 Jenkins'
+title: 'SonarQubeScanner for MSBuild 使用 Jenkins Plugin'
 date: 2018-11-21 10:09:37
 categories:
-- 學習
+- SonarQube
 tags:
 - SonarQube
 - Jenkins
 ---
-
 
 ### 在 Jenkins 外掛中心 找到 SonarQube Scanner 把它安裝起來
 ![](https://i.imgur.com/MGOpSwT.png)
@@ -28,7 +27,6 @@ tags:
 ![](https://i.imgur.com/jKyGsJC.png)
 
 ![](https://i.imgur.com/iOBJvyD.png)
-
 
 ### 建置步驟 > Execute SonarQube Scanner
 

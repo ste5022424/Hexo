@@ -2,7 +2,7 @@
 title: Docker Nginx Reverse Proxy
 date: 2018-12-10 14:55:44
 categories:
-- 學習
+- Nginx
 tags:
 - Docker
 - Nginx

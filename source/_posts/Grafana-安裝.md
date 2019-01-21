@@ -2,7 +2,7 @@
 title: '使用Docker 安裝 Grafana'
 date: 2018-10-19 11:50:40
 categories: 
-- 筆記
+- Grafana
 tags: 
 - Grafana
 - Docker

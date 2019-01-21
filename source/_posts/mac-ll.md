@@ -2,7 +2,7 @@
 title: mac ll
 date: 2018-12-26 11:54:12
 categories:
-- 筆記
+- mac
 tags:
 - mac
 ---

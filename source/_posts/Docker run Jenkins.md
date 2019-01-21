@@ -2,7 +2,7 @@
 title: 'Docker run Jenkins'
 date: 2018-10-19 11:50:40
 categories: 
-- 筆記
+- Jenkins
 tags: 
 - Jenkins
 - Docker

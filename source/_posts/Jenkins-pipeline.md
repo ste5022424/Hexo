@@ -3,9 +3,10 @@ layout: pos
 title: Jenkins Pipeline
 date: 2018-11-23 11:21:54
 categories: 
-- 筆記
+- Jenkins
 tags: 
 - Jenkins
+- Pipeline
 ---
 # Jenkins Pipeline
 ### 可以將部屬流程視覺化來顯示，請看官方的這張[圖](https://jenkins.io/doc/book/pipeline/)
@@ -91,31 +92,6 @@ node {
 ### 按下 Generate Pipeline Script，會產生語法，可以直接在 pipeline 中使用
 ![](https://i.imgur.com/0AMFpET.png)
 > pipeline 是使用 Groovy語言來撰寫，可以參考 [Groovy’s syntax](http://groovy-lang.org/syntax.html)
-
-# SonarQube Scanner for Jenkins Pipeline
-
-```
-node {
-
-   VERSION = VersionNumber([projectStartDate: '2015-01-01', versionNumberString: '${YEARS_SINCE_PROJECT_START}.${BUILD_MONTH}.${BUILD_DAY}.${BUILDS_TODAY}', versionPrefix: '', worstResultForIncrement: 'NOT_BUILT'])
-   TheJobName ="${env.JOB_NAME}"
-
-stage('Sonarqube Scan Begin'){
-        echo "Sonarqube Scan Begin Start"
-        bat "D:\\tools\\sonar-scanner-msbuild-4.4.2.1543-net46\\SonarQube.Scanner.MSBuild.exe begin /k:${TheJobName} /n:${TheJobName} /v:${VERSION} /d:sonar.exclusions=obj\\*,bin\\*,packages\\**,Properties\\*"
-        echo "Sonarqube Scan Begin OK"
-   }
-   stage('Msbuild'){
-       echo "Msbuild Start"
-       bat "\"C:/Program Files (x86)/MSBuild/14.0/bin/amd64/msbuild.exe\" ${TheJobName}.sln /t:Rebuild /p:Configuration=Release"
-       echo "Msbuild OK"
-   }
-   stage('Sonarqube Scan End'){
-       echo "Sonarqube Scan End Start"
-        bat "D:\\tools\\sonar-scanner-msbuild-4.4.2.1543-net46\\SonarQube.Scanner.MSBuild.exe end"
-        echo "Sonarqube Scan End OK"
-   }
-}
 
 ```
 # 參考

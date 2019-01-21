@@ -2,7 +2,7 @@
 title: SQL-Server-2017-安裝-登入
 date: 2018-10-17 17:27:29
 categories:
-- 學習
+- SQL Server
 tags:
 - SQL-Server
 ---
@@ -12,7 +12,6 @@ tags:
 https://www.microsoft.com/zh-tw/sql-server/sql-server-downloads
 
 ![](https://i.imgur.com/DSjWrRS.png)
-
 
 ## 2. 安裝 
 

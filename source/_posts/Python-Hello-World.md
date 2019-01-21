@@ -2,7 +2,7 @@
 title: Python Hello World
 date: 2018-11-14 14:59:14
 categories:
-- 學習
+- Python
 tags:
 - Python
 - Visual Studio Code

@@ -2,7 +2,7 @@
 title: SonarQube 程式碼品質分析工具
 date: 2018-11-20 10:03:25
 categories:
-- 學習
+- SonarQube
 tags:
 - SonarQube
 ---
@@ -74,7 +74,6 @@ SonarQube.Scanner.MSBuild.exe begin /k:"4e4602940368f811feba160cc8797ac455ca65d8
 SonarQube.Scanner.MSBuild.exe end
 ```
 ![](https://i.imgur.com/wZsXqhA.png)
-
 
 ![](https://i.imgur.com/yCmU7y8.png)
 

@@ -2,13 +2,12 @@
 title: Rancher
 date: 2018-11-07 15:04:34
 categories:
-- 學習
+- Rancher
 tags:
 - Rancher
 - Docker
 - k8s
 ---
-
 
 
 ## 參考網址

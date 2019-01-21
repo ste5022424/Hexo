@@ -2,7 +2,7 @@
 title: Jenkins Pipeline Blue Ocean
 date: 2018-12-20 16:21:16
 categories:
-- 筆記
+- Jenkins
 tags:
 - Jenkins
 - Pipeline

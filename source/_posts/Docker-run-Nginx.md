@@ -2,6 +2,7 @@
 title: Docker run Nginx
 date: 2018-12-07 15:24:06
 categories:
+- Nginx
 tags:
 - Docker
 - Nginx

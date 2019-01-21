@@ -2,10 +2,10 @@
 title: Jenkins Pipeline Parallel 平行處理
 date: 2018-12-21 15:32:46
 categories:
-- 筆記
+- Jenkins
 tags:
 - Jenkins
-- Pipeline
+- Pipeline Parallel
 ---
 
 ## Jenkins Pipeline Parallel 平行處理

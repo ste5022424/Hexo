@@ -2,7 +2,7 @@
 title: GCP Container Registry
 date: 2018-12-26 14:48:55
 categories:
-- 學習
+- GCP Container Registry
 tags:
 - GCP Registry
 - GCP

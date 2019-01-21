@@ -2,7 +2,7 @@
 title: Python Web Application Django
 date: 2018-11-14 15:32:10
 categories:
-- 學習
+- python
 tags:
 - Python
 - Django

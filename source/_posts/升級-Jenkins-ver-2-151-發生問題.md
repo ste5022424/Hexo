@@ -2,7 +2,7 @@
 title: '升級 Jenkins ver. 2.151 發生問題'
 date: 2018-11-20 16:49:02
 categories: 
-- 筆記
+- Jenkins
 tags: 
 - Jenkins
 ---

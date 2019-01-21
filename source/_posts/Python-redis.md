@@ -2,7 +2,7 @@
 title: Python redis
 date: 2018-12-06 10:20:32
 categories:
-- 筆記
+- python
 tags:
 - python
 - redis

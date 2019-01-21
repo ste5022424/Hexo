@@ -2,7 +2,7 @@
 title: .Net Core CLI run Docker Web API
 date: 2018-12-28 10:19:04
 categories:
-- 筆記
+- .net core
 tags:
 - .net core
 - Docker
