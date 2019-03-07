@@ -2,51 +2,54 @@
 layout: pos
 title: Jenkins Pipeline
 date: 2018-11-23 11:21:54
-categories: 
+categories:
 - Jenkins
 tags: 
 - Jenkins
 - Pipeline
 ---
 # Jenkins Pipeline
+
 ### 可以將部屬流程視覺化來顯示，請看官方的這張[圖](https://jenkins.io/doc/book/pipeline/)
 
-![](https://i.imgur.com/OXUX6Ca.png)
+![視覺化](https://i.imgur.com/OXUX6Ca.png)
 
 ### 新增作業
 
-![](https://i.imgur.com/1H6nKrr.png)
+![新增作業](https://i.imgur.com/1H6nKrr.png)
 
 ### 選擇 Pipeline 專案
-![](https://i.imgur.com/Rk6oGvB.png)
+![選擇](https://i.imgur.com/Rk6oGvB.png)
 
 ### 建立成功之後就可以在 script 的地方撰寫
-![](https://i.imgur.com/Ms2I0GI.png)
+
+![建立](https://i.imgur.com/Ms2I0GI.png)
 
 ### Pipeline Script 有分兩種方式
+
  > Pipeline Script 直接寫在 jenkins Script 上面
  > Pipeline script from SCM 可以使用版控來管理 Pipeline script
- 
  * Pipeline Script
 
-![](https://i.imgur.com/1yz6bPX.png)
+![Pipeline Script](https://i.imgur.com/1yz6bPX.png)
 
-```
-node {  
-    stage('Clone') { 
+```bash
+node {
+    stage('Clone') {
         echo 'Clone'
     }
-    stage('Build') { 
+    stage('Build') {
         echo 'Build'
     }
-    stage('Test') { 
+    stage('Test') {
         echo 'Teset'
     }
-    stage('Deploy') { 
+    stage('Deploy') {
         echo 'Deploy'
     }
 }
 ```
+
 #### 馬上建置
 ![](https://i.imgur.com/RIVUvf9.png)
 

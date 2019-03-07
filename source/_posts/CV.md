@@ -6,13 +6,14 @@ tags:
 - CV
 ---
 
-
 ### 基本資料
+
 姓名: 巫佳溢
 Email: ste5022424@gmail.com
 學歷: 僑光科技大學資訊科技系
 
 ### 專業領域
+
 * Web:
 Asp.net Mvc(C#), AngularJs, Asp.Net Core
 * DB:

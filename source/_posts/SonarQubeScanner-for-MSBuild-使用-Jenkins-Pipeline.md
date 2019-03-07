@@ -1,5 +1,5 @@
 ---
-title: SonarQubeScanner for MSBuild 使用 Jenkins Pipeline
+title: SonarQubeScanner & UnitTest 使用 Jenkins Pipeline
 date: 2019-01-15 15:55:17
 categories:
 - SonarQube
@@ -8,13 +8,17 @@ tags:
 - Jenkins
 - Pipeline
 ---
-## SonarQubeScanner for MSBuild 使用 Jenkins Pipeline
+## SonarQubeScanner & UnitTest 使用 Jenkins Pipeline
 
 > 使用 Jenkins Plugin 可以參考[這篇](https://ste5022424.github.io/2018/11/21/SonarQube-%E7%A8%8B%E5%BC%8F%E7%A2%BC%E5%93%81%E8%B3%AA%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7-%E4%BD%BF%E7%94%A8-Jenkins/)，此篇是使用 Pipeline 來實現 SonarQube 掃描
 
+### .net framework
 
-### Msbuild
-> sonar-scanner-msbuild-4.4.2.1543-net46 可以去[官網](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+MSBuild)下載
+#### 1. 下載 [sonar-scanner-msbuild-4.4.2.1543-net46](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+MSBuild)
+
+#### 2. 下載 [Opencover Tool](https://github.com/opencover/opencover/releases)
+
+#### 3. Pipeline
 
 ```
 node {
@@ -24,7 +28,7 @@ node {
 
     stage('Sonarqube Scan Begin'){
         echo "Sonarqube Scan Begin Start"
-        bat "D:\\tools\\sonar-scanner-msbuild-4.4.2.1543-net46\\SonarQube.Scanner.MSBuild.exe begin /k:${TheJobName} /n:${TheJobName} /v:${VERSION} /d:sonar.exclusions=obj\\*,bin\\*,packages\\**,Properties\\*"
+        bat "D:\\tools\\sonar-scanner-msbuild-4.4.2.1543-net46\\SonarQube.Scanner.MSBuild.exe begin /k:${TheJobName} /n:${TheJobNopame} /v:${VERSION} /d:sonar.exclusions=obj\\*,bin\\*,packages\\**,Properties\\*"
         echo "Sonarqube Scan Begin OK"
    }
    stage('Msbuild'){
@@ -39,21 +43,23 @@ node {
    }
 }
 
-```
+
+
+```bash
 ### .Net Core
 
- > 因為要產生 coverage.opencover.xml，所以專案要先安裝 coverlet.msbuild
+#### 1. 專案安裝 coverlet.msbuild，因為要產生 coverage.opencover.xm， 
 
-```
-dotnet add package coverlet.msbuil
+```bash
+dotnet add package coverlet.msbuild
 ```
 
-#### 1. Server 安裝 dotnet-sonarscanner
+#### 2. jenkins Server 安裝 dotnet-sonarscanner
 
-```
+```bash
 dotnet tool install --global dotnet-sonarscanner --version 4.3.1
 ```
-#### 2. Pipeline
+#### 3. Pipeline
 
 ```
 node {
@@ -87,3 +93,7 @@ node {
 [Cross platform code coverage arrives for .NET Core](http://tattoocoder.com/cross-platform-code-coverage-arrives-for-net-core/)
 
 [Collecting test coverage using Coverlet and SonarQube for a .net core project](https://medium.com/agilix/collecting-test-coverage-using-coverlet-and-sonarqube-for-a-net-core-project-ef4a507d4b28)
+
+[Code Coverage Results Import (C#, VB.NET)](https://docs.sonarqube.org/pages/viewpage.action?pageId=6389770#CodeCoverageResultsImport(C#,VB.NET)-OpenCover)
+
+[C# unit testing on a jenkins pipeline](https://medium.com/@toja/c-unit-testing-on-a-jenkins-pipeline-532e6d5dd133)

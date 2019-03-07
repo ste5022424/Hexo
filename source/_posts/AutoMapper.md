@@ -8,10 +8,11 @@ tags:
 - C#
 ---
 
-## AutoMapper
+# AutoMapper
+
 > 兩個 class 要對映，可以使用linq來寫，但是當欄位一多的時候，就要寫的很多，這時候就可以使用 AutoMapper。
 
-```
+```code
 private class MyClass
 {
     public int A { get; set; }
@@ -40,8 +41,10 @@ private class MyClass2
 }
 ```
 
-### 使用 Linq
-```
+## 使用 Linq
+
+```code
+
 List<MyClass2> data = my.Select(x => new MyClass2()
 {
     A = x.A,
@@ -53,8 +56,9 @@ List<MyClass2> data = my.Select(x => new MyClass2()
 }).ToList();
 ```
 
-### 使用 AutoMapper 對映
-```
+## 使用 AutoMapper 對映
+
+```bash
 Mapper.Initialize(cfg =>
 {
     cfg.CreateMap<MyClass, MyClass2>();
@@ -63,6 +67,7 @@ List<MyClass2> data2 = Mapper.Map<List<MyClass2>>(my);
 
 ```
 
-## 參考網址
+# 參考網址
+
 [Automapper官網](https://automapper.org/)
 [Automapper Github](https://github.com/AutoMapper/AutoMapper)

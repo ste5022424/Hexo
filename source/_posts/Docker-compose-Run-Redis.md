@@ -9,42 +9,47 @@ tags:
 - Docker compose
 - Visual Studio Code
 ---
+# Docker compose Run Redis
 
-## Docker compose Run Redis
+## 建立資料夾 及 Dockerfile
 
-### 建立資料夾 及 Dockerfile 
-
-```
+```bash
  mkdir composeredis
  cd composeredis
  vi docker-compose.yml
 ```
-### docker-compose.yml
 
-```
+## docker-compose.yml
+
+```bash
 version: "3"
 services:
   redis:
     image: redis
-    ports: 
+    ports:
      - "1233:6379"
-    volumes: 
+    volumes:
      - "./tmp/redis:/data"
 ```
-### docker-compse run redis
-```
+
+## docker-compse run redis
+
+```bash
 docker-compose up -d
 ```
-![](https://i.imgur.com/fzhLCey.png)
 
-### docekr ps -a
-![](https://i.imgur.com/oCA5fVw.png)
+![docker-compose](https://i.imgur.com/fzhLCey.png)
 
-### 連線測試
+## docekr ps -a
 
-```
+![docekr ps -a](https://i.imgur.com/oCA5fVw.png)
+
+## 連線測試
+
+```bash
 telnet 127.0.0.1 1233
 set mykey 999
-get mykey 
+get mykey
 ```
-![](https://i.imgur.com/zz3UsVZ.png)
+
+![telnet](https://i.imgur.com/zz3UsVZ.png)

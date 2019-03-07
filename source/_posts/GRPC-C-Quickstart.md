@@ -7,40 +7,50 @@ tags:
 - GRPC
 ---
 
-## GRPC Quickstart
+# GRPC Quickstart
 
-### Clone GRPC
-```
-git clone -b v1.17.0 https://github.com/grpc/grpc 
-```
-![](https://i.imgur.com/F5MAgGK.png)
+## Clone GRPC
 
-### Build 
+```bash
+git clone -b v1.17.0 https://github.com/grpc/grpc
+
 ```
+
+![Clone GRPC](https://i.imgur.com/F5MAgGK.png)
+
+## Build
+
+```bash
 cd D:\GRPC\grpc\examples\csharp\Helloworld
 dotnet build Greeter.sln
+
 ```
-![](https://i.imgur.com/p9eDKj6.png)
+
+![Build](https://i.imgur.com/p9eDKj6.png)
 
 ### Run a gRPC application
 
 > Server
-```
+
+```bash
 cd D:\GRPC\grpc\examples\csharp\Helloworld\GreeterServer>
  dotnet run -f netcoreapp2.1
-```
-![](https://i.imgur.com/snarP0h.png)
 
+```
+
+![Server](https://i.imgur.com/snarP0h.png)
 
 > Client
-```
+
+```bash
 cd D:\GRPC\grpc\examples\csharp\Helloworld\GreeterClient
 dotnet run -f netcoreapp2.1
 ```
 
-![](https://i.imgur.com/xQDQpZC.png)
+![Client](https://i.imgur.com/xQDQpZC.png)
 
 ## 參考
+
 [C# Quickstart](https://grpc.io/docs/quickstart/csharp.html)
 [gRPC 官方文檔中文版 V1.0](https://doc.oschina.net/grpc?t=60132)
 [https://github.com/grpc/grpc](https://github.com/grpc/grpc)

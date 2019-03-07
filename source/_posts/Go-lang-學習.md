@@ -9,45 +9,43 @@ tags:
 ---
 # GO lang Hello World !
 
-
 ## 安裝 GO
 
-1. 下載
-https://golang.org/
+### 1. 下載
 
-![](https://i.imgur.com/nqkLVtr.png)
+<https://golang.org/>
 
-1. 選擇自己的作業系統
+![下載](https://i.imgur.com/nqkLVtr.png)
 
-![](https://i.imgur.com/L4Xbr7h.png)
+### 2. 選擇自己的作業系統
 
-3. 安裝
+![選擇自己的作業系統](https://i.imgur.com/L4Xbr7h.png)
 
-![](https://i.imgur.com/L9HsVaY.png)
+### 3. 安裝
 
-![](https://i.imgur.com/oRDbix1.png)
+![安裝](https://i.imgur.com/L9HsVaY.png)
 
-4. 測試GO 是否有安裝成功
-![](https://i.imgur.com/n0W4ziL.png)
+![安裝](https://i.imgur.com/oRDbix1.png)
 
+### 4. 測試GO 是否有安裝成功
 
-##  Visual Studio Code 開發
+![測試GO](https://i.imgur.com/n0W4ziL.png)
 
-#### 安裝套件
+## Visual Studio Code 開發
 
-![](https://i.imgur.com/qxy8dCo.png)
+### 安裝套件
 
+![安裝套件](https://i.imgur.com/qxy8dCo.png)
 
 ### Hello World
 
-![](https://i.imgur.com/TrwsY6c.png)
+![Hello](https://i.imgur.com/TrwsY6c.png)
 
-
-```
+```bash
 package main
 import "fmt"
 func main() {
-	fmt.Println("Hello, 世界")
+fmt.Println("Hello, 世界")
 }
 ```
 
@@ -55,40 +53,40 @@ func main() {
 
 ### 簡單的 router 範例
 
-![](https://i.imgur.com/KlzrTTI.png)
+![router](https://i.imgur.com/KlzrTTI.png)
 
-![](https://i.imgur.com/7xnUwXu.png)
+![router](https://i.imgur.com/7xnUwXu.png)
 
 
-```
+```bash
 package main
 import (
-	"fmt"
-	"log"
-	"net/http"
-	"github.com/gorilla/mux"
+"fmt"
+"log"
+"net/http"
+"github.com/gorilla/mux"
 )
 
 func main() {
-	router := mux.NewRouter().StrictSlash(true)
-	router.HandleFunc("/", Index)
-	router.HandleFunc("/news", News)
-	router.HandleFunc("/news/{DetailID}", Detail)
-	log.Fatal(http.ListenAndServe(":8080", router))
+router := mux.NewRouter().StrictSlash(true)
+router.HandleFunc("/", Index)
+router.HandleFunc("/news", News)
+router.HandleFunc("/news/{DetailID}", Detail)
+log.Fatal(http.ListenAndServe(":8080", router))
 }
 
 func Index(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "Home!")
+fmt.Fprintln(w, "Home!")
 }
 
 func News(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "最新消息 Master")
+fmt.Fprintln(w, "最新消息 Master")
 }
 
 func Detail(w http.ResponseWriter, r *http.Request) {
-	vars := mux.Vars(r)
-	DetailID := vars["DetailID"]
-	fmt.Fprintln(w, "最新消息 Detail ID:", DetailID)
+vars := mux.Vars(r)
+DetailID := vars["DetailID"]
+fmt.Fprintln(w, "最新消息 Detail ID:", DetailID)
 }
 
 ```

@@ -13,15 +13,13 @@ tags:
 ### 安裝 jenkins
 
 ```
-mkdir jenkins_home
-chmod 777 jenkins_home/
-docker run -d -p 8080:8080 -p 50000:50000 -v /jenkins_home:/var/jenkins_home --name myjenkins jenkins
+mkdir -p -m 777 jenkins_home
+docker run -d -p 8080:8080 -p 50000:50000 -v /jenkins_home:/var/jenkins_home --name jenkins jenkins
 
 ```
-     
 ### 取得密碼(initialAdminPassword)
-```    
-docker exec myjenkins cat /var/jenkins_home/secrets/initialAdminPassword
+```
+docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 ```
 
 ### 進入Jenkins

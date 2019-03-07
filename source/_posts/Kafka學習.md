@@ -6,7 +6,7 @@ categories:
 tags:
 - Kafka
 ---
-# Kafka 
+# Kafka
 
   ### Broker 叢集
 > Kafka 叢集
@@ -22,17 +22,18 @@ tags:
 > 消費者群組
 
 ### Kafka Client
-* Confluent.Kafka
+
+    * Confluent.Kafka
     * https://cwiki.apache.org/confluence/display/KAFKA/Clients#Clients-.NET
     * https://github.com/confluentinc/confluent-kafka-dotnet
 
-
 ### Kafka GUI
-* Kafka Tool
+
+    * Kafka Tool
     * http://www.kafkatool.com/
 
+## 參考網站
 
-## 參考網站 
 [Kafka剖析（一）：Kafka背景及架构介绍](http://www.infoq.com/cn/articles/kafka-analysis-part-1)
 [kafka](http://kafka.apache.org/intro)
 [為什麼Kafka這麼快](https://read01.com/Dx7n63.html#.W02zFtIzaUk)

@@ -7,7 +7,10 @@ tags:
 - mac
 ---
 
-```
+新增一個　.bash_profile
+/Users/YOUR_USER_NAME/.bash_profile
+
+```bash
 alias ll='ls -lG'
 ```
 

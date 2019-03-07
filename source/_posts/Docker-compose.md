@@ -11,7 +11,7 @@ tags:
 
 > 安裝 [Docker Compose](https://docs.docker.com/compose/install/)
 
-```
+```bash
 sudo curl -L "https://github.com/docker/compose/releases/download/1.23.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 sudo chmod +x /usr/local/bin/docker-compose
@@ -20,34 +20,38 @@ docker-compose --version
 ```
 
 ## 安裝完成就可以看版本資訊
-![](https://i.imgur.com/mwTzUhO.png)
 
+![安裝](https://i.imgur.com/mwTzUhO.png)
 
 ## Step 1: Setup
 
 ### 1.建立 composetest 資料夾
 
-```
+```bash
 mkdir composetest
 cd composetest
 ```
+
 ### 2.建立 app.py
 
-```
+```bash
 touch app.py
 ```
 
 #### 2.1.編輯 app.py
-```
+
+```bash
 vi app.py
 ```
+
 Vi指令
 > i 編輯
 > ESC 結束編輯
 > :wq 存檔並離開
 
 #### 2.2輸入以下內容
-```
+
+```bash
 import time
 
 import redis
@@ -78,25 +82,31 @@ def hello():
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
 ```
+
 ### 3. 建立 requirements.txt
 
-```
+```bash
 touch requirements.txt
 ```
+
 #### 3.1. 編輯 requirements.txt
 
-```
+```bash
 vi requirements.txt
 ```
+
 #### 3.2. 輸入文字
-```
+
+```bash
 flask
 redis
 ```
+
 ## Step 2: Create a Dockerfile
 
 ### 1. 建立 touch Dockerfile
-```
+
+```bash
 touch Dockerfile
 ```
 #### 1.1. 輸入內容
