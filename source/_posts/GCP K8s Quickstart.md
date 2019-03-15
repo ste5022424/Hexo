@@ -2,9 +2,9 @@
 title: GCP K8s Quickstart
 date: 2018-12-28 15:19:04
 categories:
-- K8S
+- k8s
 tags:
-- K8S
+- k8s
 - GCP
 - Docker
 ---
@@ -68,4 +68,4 @@ kubectl get service netcorewebapi
 
 ## 參考
 
-[k8s Quickstart](https://cloud.google.com/kubernetes-engine/docs/quickstart)
+[K8S Quickstart](https://cloud.google.com/kubernetes-engine/docs/quickstart)
