@@ -72,7 +72,7 @@ docker run  -d -p 9200:9200 -p 9300:9300 --name elasticsearch -v /data/elasticse
 ### 2-4 Preview elasticsearch
 
 ```
-crul 127.0.0.1:9200
+curl 127.0.0.1:9200
 ```
 ![](https://i.imgur.com/DspQBxW.png)
 
@@ -80,7 +80,7 @@ crul 127.0.0.1:9200
 
 ### 3-1 docker run
 ```
-docker run -d --name kibana --restart=always -p 5601:5601 --link elasticsearch:elasticsearch kibana:6.5.4
+docker run -d --name kibana --restart=always -p 5601:5601 --link elasticsearch:elasticsearch docker.elastic.co/kibana/kibana:6.5.4
 ```
 > [Run kibana with Docker](https://www.elastic.co/guide/en/kibana/6.5/docker.html)
 
@@ -172,19 +172,30 @@ docker attach logstash
 
 > 官網的[架構圖](https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-overview.html)可以知道 Filebeat 是一個搜集器，它可以把 log 蒐集起來之後往後面送
 
-![](https://i.imgur.com/l9fRRUE.png)
+![架構圖](https://i.imgur.com/l9fRRUE.png)
 
 
-# Integrating with Messaging Queuesedit
+> Integrating with Messaging Queuesedit
 
 > 在Log量很大的情況下，會使用 MessagQueue 來減輕負擔，以下是官方網站的[架構圖](https://www.elastic.co/guide/en/logstash/current/deploying-and-scaling.html)
 
-![](https://www.elastic.co/guide/en/logstash/current/static/images/deploy4.png)
+![架構圖](https://www.elastic.co/guide/en/logstash/current/static/images/deploy4.png)
 
 > filebeat 蒐集log後，推送到 kafka，logstash 訂閱 kafka，logstash 從 kafa 抓資料後，再將 log parser，然後再送到 elasticsearch ，最後再由 kibana 顯示資料
 
+## 5.1 Docker  run [Filebeat](https://www.elastic.co/guide/en/beats/filebeat/current/running-on-docker.html#_custom_image_configuration)
 
->  [Configure the Logstash output](https://www.elastic.co/guide/en/beats/filebeat/master/kafka-output.html)
+> Dockerfile
+
+```bash
+FROM docker.elastic.co/beats/filebeat:6.6.2
+COPY filebeat.yml /usr/share/filebeat/filebeat.yml
+USER root
+RUN chown root:filebeat /usr/share/filebeat/filebeat.yml
+USER filebeat
+```
+
+> [Configure the Logstash output](https://www.elastic.co/guide/en/beats/filebeat/master/kafka-output.html)
 
 ## 參考
 

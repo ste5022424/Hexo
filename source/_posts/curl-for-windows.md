@@ -26,4 +26,4 @@ curl -X get "www.google.com"
 
 # 參考
 [curl 7.64.0 for Windows](https://curl.haxx.se/windows/)
-[crul online](https://onlinecurl.com/)
+[curl online](https://onlinecurl.com/)

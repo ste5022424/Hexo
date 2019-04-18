@@ -20,7 +20,7 @@ tags:
 
 #### 3. Pipeline
 
-```
+```bash
 node {
 
    VERSION = VersionNumber([projectStartDate: '2015-01-01', versionNumberString: '${YEARS_SINCE_PROJECT_START}.${BUILD_MONTH}.${BUILD_DAY}.${BUILDS_TODAY}', versionPrefix: '', worstResultForIncrement: 'NOT_BUILT'])
@@ -43,12 +43,11 @@ node {
    }
 }
 
+```
 
-
-```bash
 ### .Net Core
 
-#### 1. 專案安裝 coverlet.msbuild，因為要產生 coverage.opencover.xm， 
+#### 1. 專案安裝 coverlet.msbuild，因為要產生 coverage.opencover.xm
 
 ```bash
 dotnet add package coverlet.msbuild
@@ -59,9 +58,10 @@ dotnet add package coverlet.msbuild
 ```bash
 dotnet tool install --global dotnet-sonarscanner --version 4.3.1
 ```
-#### 3. Pipeline
 
-```
+#### 3. pipeline
+
+```bash
 node {
 
    VERSION = VersionNumber([projectStartDate: '2015-01-01', versionNumberString: '${YEARS_SINCE_PROJECT_START}.${BUILD_MONTH}.${BUILD_DAY}.${BUILDS_TODAY}', versionPrefix: '', worstResultForIncrement: 'NOT_BUILT'])
@@ -85,6 +85,7 @@ node {
 }
 
 ```
+
 ## 參考
 
 [Analyzing with SonarScanner for MSBuild](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+MSBuild)

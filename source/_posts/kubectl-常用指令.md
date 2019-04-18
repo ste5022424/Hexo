@@ -2,55 +2,69 @@
 title: 'kubectl 常用指令'
 date: 2019-03-15 11:15:23
 categories:
-- kubectl
+- Kubernetes
 tags:
+- Kubernetes
 - kubectl
-- k8s
-- Dockerh
+- Docker
 ---
 
 # kubectl 常用指令
 
 ## 以下列舉常用指令
 
-* version 查看 kubectl 版本
+* version :查看 kubectl 版本
 
 ```bash=
 kubectl version
 ```
 
-* get 取得K8s相關資訊
+* cluster-info :顯示叢集資訊
+
+```bash
+kubectl cluster-info
+```
+
+* top :查看CPU、記憶體狀態
+
+```bash
+kubectl top pod
+kubectl top node
+```
+
+
+* get :取得K8s相關資訊
 
 ```bash=
 kubectl get pods
 kubectl get service
 ```
 
-* run 執行容器
+* run :執行容器
 
 ```bash=
 kubectl run [your-name] --image gcr.io/[your-projectid]/netcorewebapi:v1 --port 80
 ```
 
-* logs 查看容器log
+* logs :查看容器log
 
 ```bash=
 kubectl logs [pod-name]
 ```
 
-* exec 對容器下指令
+* exec :對容器下指令
 
 ```bash=
 kubectl exec -it [pod-name] bash
 ```
 
-* apply 使用 yaml 更新 K8s
+* apply :使用 yaml 更新 K8s
 
 ```bash=
 kubectl apply [youtrname].yaml 
 ```
 
-* config view 查看 kubectl 設定
+* config view :查看 kubectl 設定
 
 ```bash=
 kubectl config view
