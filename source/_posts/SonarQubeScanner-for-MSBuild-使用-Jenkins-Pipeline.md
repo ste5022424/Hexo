@@ -36,6 +36,11 @@ node {
        bat "\"C:/Program Files (x86)/MSBuild/14.0/bin/amd64/msbuild.exe\" ${TheJobName}.sln /t:Rebuild /p:Configuration=Release"
        echo "Msbuild OK"
    }
+   stage('OpenCover') {
+       echo "OpenCover Start"
+       bat  "%LOCALAPPDATA%\\Apps\\OpenCover\\OpenCover.Console.exe -output:\"%CD%\\opencover.xml\" -register:user -target:\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow\\vstest.console.exe\" -targetargs:\"${TheJobName}.Test\\bin\\Release \\${TheJobName}.Test.dll \"/logger:trx\""
+       echo "OpenCover OK"
+   }
    stage('Sonarqube Scan End'){
        echo "Sonarqube Scan End Start"
         bat "D:\\tools\\sonar-scanner-msbuild-4.4.2.1543-net46\\SonarQube.Scanner.MSBuild.exe end"
@@ -77,6 +82,11 @@ node {
         bat  "dotnet build ${TheJobName}.sln -c Release -p:Version=${VERSION}"
         echo "dotnet sonarscanner build OK"
     }
+   stage('dotnet test') {
+       echo "dotnet test Start"
+       bat  "dotnet test ${TheJobName}.Test --logger:trx /p:CollectCoverage=true /p:CoverletOutputFormat=opencover"
+       echo "dotnet test OK"
+   }
     stage("dotnet sonarscanner end") {
         echo "dotnet sonarscanner end Start"
         bat  "dotnet sonarscanner end"

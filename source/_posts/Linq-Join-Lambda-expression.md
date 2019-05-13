@@ -122,8 +122,12 @@ namespace ConsoleApp20
 
 ```
 
+![](https://i.imgur.com/iE0Zy2O.png)
+
+
 # 參考
 
 [Linq Join & Lambda Join](https://dotblogs.com.tw/erictsaiblog/2015/05/17/151321)
+[How to rewrite this LINQ using join with lambda expressions?](https://stackoverflow.com/questions/13692015/how-to-rewrite-this-linq-using-join-with-lambda-expressions)
 [How to join 3 tables with lambda expression?](https://stackoverflow.com/questions/9120088/how-to-join-3-tables-with-lambda-expression)
 [Declare variable within LINQ select](https://stackoverflow.com/questions/29251075/declare-variable-within-linq-selectx-new)
