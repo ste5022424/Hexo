@@ -52,3 +52,4 @@ npm install eslint --save-dev
 [Getting Started with ESLint](https://eslint.org/docs/user-guide/getting-started)
 [在 VSCode 啟用程式碼規範工具 (ESLint)](https://wcc723.github.io/tool/2017/11/09/coding-style/)
 [eslint](https://eslint.org/)
+[ESLint Quickstart - find errors automatically](https://www.youtube.com/watch?v=qhuFviJn-es)
