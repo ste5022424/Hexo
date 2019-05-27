@@ -2,10 +2,9 @@
 title: docker-compose run ELK
 date: 2019-04-02 16:32:39
 categories:
-- ELK
+- ELK Stack
 tags:
-- ELK
-- 
+- ELK Stack
 ---
 
 # docker-comepost run ELK
