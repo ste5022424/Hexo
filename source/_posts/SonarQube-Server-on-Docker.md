@@ -34,7 +34,6 @@ services:
                 - "POSTGRES_USER=sonar"
                 - "POSTGRES_PASSWORD=sonar"
                 restart: always
-                
     sonarqube:
                 container_name: "sonarqube"
                 image: "sonarqube:7.7-community"
@@ -63,24 +62,25 @@ services:
 
 #### 1. 將 sonar.properties 放置 SONARQUBE_HOME/conf/sonar.properties
 
-```
-# LDAP configuration
+```bash=
+
 # General Configuration
+# LDAP configuration
 sonar.security.realm=LDAP
-ldap.url=ldap://myserver.mycompany.com
-ldap.bindDn=my_bind_dn
-ldap.bindPassword=my_bind_password
-  
+sonar.authenticator.createUsers=true
+sonar.security.savePassword=true
+sonar.security.updateUserAttributes=true
+
+ldap.url=ldap://YourAdServer
+ldap.bindDn=bindDn
+ldap.bindPassword=bindPassword
+
 # User Configuration
-ldap.user.baseDn=ou=Users,dc=mycompany,dc=com
-ldap.user.request=(&(objectClass=inetOrgPerson)(uid={login}))
-ldap.user.realNameAttribute=cn
-ldap.user.emailAttribute=mail
- 
-# Group Configuration
-ldap.group.baseDn=ou=Groups,dc=sonarsource,dc=com
-ldap.group.request=(&(objectClass=posixGroup)(memberUid={uid}))
+ldap.user.baseDn=baseDn
+ldap.user.request=(&(objectClass=user)(sAMAccountName={login}))
+
 ```
+
 #參考
 [sonarqube-postgres-docker.md](https://gist.github.com/ceduliocezar/b3bf93125024482b5f2f479696842046)
 [postgres docker](https://hub.docker.com/_/postgres)
