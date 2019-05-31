@@ -84,5 +84,5 @@ docker run --name nginx_dockerfile -p 8089:80 -d nginx_dockerfile:v1
 
 # 參考
 
-[[ DevOps ] Nginx 設定 Proxy Server 及 Load balance](https://oranwind.org/-devops-ubuntu-shang-nginx-an-zhuang-yu-she-ding/)
-[NGINX Reverse Proxy](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/)
+* [[ DevOps ] Nginx 設定 Proxy Server 及 Load balance](https://oranwind.org/-devops-ubuntu-shang-nginx-an-zhuang-yu-she-ding/)
+* [NGINX Reverse Proxy](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/)

@@ -79,5 +79,3 @@ curl -fsSL https://get.docker.com/ | sh
 ### 批次停止跟刪除 容器
     docker stop $(docker ps -a -q)
     docker rm $(docker ps -a -q)
-
-

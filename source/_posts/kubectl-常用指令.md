@@ -72,5 +72,5 @@ kubectl config view
 
 # 參考
 
-[kubectl-commands](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands)
-[K8S指令](https://blog.csdn.net/xingwangc2014/article/details/51204224)
+* [kubectl-commands](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands)
+* [K8S指令](https://blog.csdn.net/xingwangc2014/article/details/51204224)

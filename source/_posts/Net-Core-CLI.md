@@ -83,5 +83,5 @@ docker run -d  --name apitest -p 90:80 apitest:v1
 
 ## 參考
 
-[Dockerize a .NET Core application](https://docs.microsoft.com/zh-tw/dotnet/core/tools/dotnet-new?tabs=netcore21)
-[Dockerize a .NET Core application](https://docs.docker.com/engine/examples/dotnetcore/)
+* [Dockerize a .NET Core application](https://docs.microsoft.com/zh-tw/dotnet/core/tools/dotnet-new?tabs=netcore21)
+* [Dockerize a .NET Core application](https://docs.docker.com/engine/examples/dotnetcore/)

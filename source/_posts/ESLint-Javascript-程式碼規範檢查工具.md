@@ -49,7 +49,7 @@ npm install eslint --save-dev
 ![ESLint](https://i.imgur.com/ebWP69Q.png)
 
 # 參考
-[Getting Started with ESLint](https://eslint.org/docs/user-guide/getting-started)
-[在 VSCode 啟用程式碼規範工具 (ESLint)](https://wcc723.github.io/tool/2017/11/09/coding-style/)
-[eslint](https://eslint.org/)
-[ESLint Quickstart - find errors automatically](https://www.youtube.com/watch?v=qhuFviJn-es)
+* [Getting Started with ESLint](https://eslint.org/docs/user-guide/getting-started)
+* [在 VSCode 啟用程式碼規範工具 (ESLint)](https://wcc723.github.io/tool/2017/11/09/coding-style/)
+* [eslint](https://eslint.org/)
+* [ESLint Quickstart - find errors automatically](https://www.youtube.com/watch?v=qhuFviJn-es)

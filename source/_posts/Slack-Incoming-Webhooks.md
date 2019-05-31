@@ -71,4 +71,4 @@ tags:
 ![收到訊息](https://i.imgur.com/NGe3FxW.png)
 
 # 參考
-[Incoming Webhooks](https://api.slack.com/incoming-webhooks)
+* [Incoming Webhooks](https://api.slack.com/incoming-webhooks)

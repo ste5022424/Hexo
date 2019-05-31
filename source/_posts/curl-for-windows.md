@@ -25,5 +25,5 @@ curl -X get "www.google.com"
 ![測試](https://i.imgur.com/ElnCkzf.png)
 
 # 參考
-[curl 7.64.0 for Windows](https://curl.haxx.se/windows/)
-[curl online](https://onlinecurl.com/)
+* [curl 7.64.0 for Windows](https://curl.haxx.se/windows/)
+* [curl online](https://onlinecurl.com/)

@@ -41,10 +41,9 @@ npm run serve
 
 ![localhost](https://i.imgur.com/Ue0UbN9.png)
 
-
-
 # 參考
-[Vue js](https://vuejs.org/)
-[Vue-create](https://cli.vuejs.org/guide/creating-a-project.html#vue-create)
-[Vue cli](https://cli.vuejs.org/guide/installation.html)
-[node js](https://nodejs.org/en/)
+
+* [Vue js](https://vuejs.org/)
+* [Vue-create](https://cli.vuejs.org/guide/creating-a-project.html#vue-create)
+* [Vue cli](https://cli.vuejs.org/guide/installation.html)
+* [node js](https://nodejs.org/en/)

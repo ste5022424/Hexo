@@ -40,5 +40,5 @@ tags:
 
 # 參考
 
-[www.sonarlint.org](https://www.sonarlint.org/)
-[如何在 Visual Studio 使用 SonarLint ?](https://oomusou.io/sonarqube/sonarlint-vs/) 
+* [www.sonarlint.org](https://www.sonarlint.org/)
+* [如何在 Visual Studio 使用 SonarLint ?](https://oomusou.io/sonarqube/sonarlint-vs/) 

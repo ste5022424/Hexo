@@ -28,4 +28,4 @@ WebView.setWebContentsDebuggingEnabled(true);
 ![](https://i.imgur.com/rsYvNdu.png)
 
 # 參考
-[遠程調試 WebView](https://developers.google.com/web/tools/chrome-devtools/remote-debugging/webviews?hl=zh-tw)
+* [遠程調試 WebView](https://developers.google.com/web/tools/chrome-devtools/remote-debugging/webviews?hl=zh-tw)

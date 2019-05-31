@@ -27,5 +27,5 @@ http://127.0.0.1:8080/
 
 
 ## 參考網址
-[Jenkins On Doker](https://github.com/jenkinsci/docker/blob/master/README.md)
-[Get Started with Jenkins 2.0 with Docker](https://www.cloudbees.com/blog/get-started-jenkins-20-docker)
+* [Jenkins On Doker](https://github.com/jenkinsci/docker/blob/master/README.md)
+* [Get Started with Jenkins 2.0 with Docker](https://www.cloudbees.com/blog/get-started-jenkins-20-docker)

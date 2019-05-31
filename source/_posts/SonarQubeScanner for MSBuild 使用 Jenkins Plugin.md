@@ -56,4 +56,4 @@ tags:
 
 # 參考
 
-[如何使用 SonarQube 檢查 PHP 專案？](https://oomusou.io/sonarqube/php/)
+* [如何使用 SonarQube 檢查 PHP 專案？](https://oomusou.io/sonarqube/php/)

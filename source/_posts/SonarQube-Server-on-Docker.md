@@ -82,6 +82,6 @@ ldap.user.request=(&(objectClass=user)(sAMAccountName={login}))
 ```
 
 #參考
-[sonarqube-postgres-docker.md](https://gist.github.com/ceduliocezar/b3bf93125024482b5f2f479696842046)
-[postgres docker](https://hub.docker.com/_/postgres)
-[sonarqube docker](https://hub.docker.com/_/sonarqube/)
+* [sonarqube-postgres-docker.md](https://gist.github.com/ceduliocezar/b3bf93125024482b5f2f479696842046)
+* [postgres docker](https://hub.docker.com/_/postgres)
+* [sonarqube docker](https://hub.docker.com/_/sonarqube/)

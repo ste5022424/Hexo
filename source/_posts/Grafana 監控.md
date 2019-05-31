@@ -138,8 +138,8 @@ net start telegraf
 
 # 參考
 
-[influxdb docker hub](https://hub.docker.com/_/influxdb/)
-[Grafana docker hub](https://hub.docker.com/r/grafana/grafana/)
-[telegraf官網](https://www.influxdata.com/time-series-platform/telegraf/)
-[telegraf git](https://github.com/influxdata/telegraf)
-[telegraf Input Plugins - win_perf_counters](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/win_perf_counters)
+* [influxdb docker hub](https://hub.docker.com/_/influxdb/)
+* [Grafana docker hub](https://hub.docker.com/r/grafana/grafana/)
+* [telegraf官網](https://www.influxdata.com/time-series-platform/telegraf/)
+* [telegraf git](https://github.com/influxdata/telegraf)
+* [telegraf Input Plugins - win_perf_counters](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/win_perf_counters)

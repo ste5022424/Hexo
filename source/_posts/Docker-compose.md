@@ -192,5 +192,5 @@ docker-compose ps
 
 # 參考
 
-[Docker Compose](https://docs.docker.com/compose/)
-[Get started with Docker Compose](https://docs.docker.com/compose/gettingstarted/)
+* [Docker Compose](https://docs.docker.com/compose/)
+* [Get started with Docker Compose](https://docs.docker.com/compose/gettingstarted/)

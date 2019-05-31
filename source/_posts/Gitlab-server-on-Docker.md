@@ -24,4 +24,4 @@ sudo docker run --detach \
 ```
 
 # 參考
-[GitLab Docker](https://docs.gitlab.com/omnibus/docker/)
+* [GitLab Docker](https://docs.gitlab.com/omnibus/docker/)

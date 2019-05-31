@@ -69,5 +69,5 @@ List<MyClass2> data2 = Mapper.Map<List<MyClass2>>(my);
 
 # 參考網址
 
-[Automapper官網](https://automapper.org/)
-[Automapper Github](https://github.com/AutoMapper/AutoMapper)
+* [Automapper官網](https://automapper.org/)
+* [Automapper Github](https://github.com/AutoMapper/AutoMapper)

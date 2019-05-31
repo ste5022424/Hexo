@@ -34,6 +34,6 @@ tags:
 
 ## 參考網站
 
-[Kafka剖析（一）：Kafka背景及架构介绍](http://www.infoq.com/cn/articles/kafka-analysis-part-1)
-[kafka](http://kafka.apache.org/intro)
-[為什麼Kafka這麼快](https://read01.com/Dx7n63.html#.W02zFtIzaUk)
+* [Kafka剖析（一）：Kafka背景及架构介绍](http://www.infoq.com/cn/articles/kafka-analysis-part-1)
+* [kafka](http://kafka.apache.org/intro)
+* [為什麼Kafka這麼快](https://read01.com/Dx7n63.html#.W02zFtIzaUk)

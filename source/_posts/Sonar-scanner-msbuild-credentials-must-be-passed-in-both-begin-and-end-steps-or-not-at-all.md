@@ -28,6 +28,6 @@ SonarScanner.MSBuild.exe end /d:sonar.login="YourToken"
 
 # 參考
 
-[sonar-scanner-msbuild : 4.1.0.1148](https://github.com/SonarSource/sonar-scanner-msbuild/releases/tag/4.1.0.1148)
+* [sonar-scanner-msbuild : 4.1.0.1148](https://github.com/SonarSource/sonar-scanner-msbuild/releases/tag/4.1.0.1148)
 
-[SonarQube+Scanner+for+MSBuild](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+MSBuild)
+* [SonarQube+Scanner+for+MSBuild](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+MSBuild)

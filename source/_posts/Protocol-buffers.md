@@ -14,5 +14,5 @@ tags:
 
 # 參考
 
-[Protocol buffers](https://developers.google.com/protocol-buffers/)
-[Protocol Buffers wiki](https://zh.wikipedia.org/wiki/Protocol_Buffers)
+* [Protocol buffers](https://developers.google.com/protocol-buffers/)
+* [Protocol Buffers wiki](https://zh.wikipedia.org/wiki/Protocol_Buffers)

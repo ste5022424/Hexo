@@ -37,12 +37,12 @@ https://你的jenkins網址/jnlpJars/jenkins-cli.jar
 ```bash
 java -jar jenkins-cli.jar -s http://127.0.0.1 install-plugin http://updates.jenkins-ci.org/download/plugins/ssh-slaves/1.28.1/ssh-slaves.hpi -restart
 ```
+
 ![手動安裝](https://i.imgur.com/UZkX9KM.png)
 
 > 如果有權限不足，先調整權限，之後再刪除 [config.xml](https://blog.csdn.net/myNameIssls/article/details/70227838)
 
 ![權限不足](https://i.imgur.com/k9IF6yL.png)
-
 
 ```bash
 <permission>hudson.model.Hudson.Administer:anonymous</permission>

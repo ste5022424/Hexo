@@ -51,6 +51,6 @@ dotnet run -f netcoreapp2.1
 
 ## 參考
 
-[C# Quickstart](https://grpc.io/docs/quickstart/csharp.html)
-[gRPC 官方文檔中文版 V1.0](https://doc.oschina.net/grpc?t=60132)
-[https://github.com/grpc/grpc](https://github.com/grpc/grpc)
+* [C# Quickstart](https://grpc.io/docs/quickstart/csharp.html)
+* [gRPC 官方文檔中文版 V1.0](https://doc.oschina.net/grpc?t=60132)
+* [https://github.com/grpc/grpc](https://github.com/grpc/grpc)

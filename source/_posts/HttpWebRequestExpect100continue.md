@@ -22,7 +22,7 @@ request.ServicePoint.Expect100Continue = false;
 
 # 參考
 
-[How to disable the “Expect: 100 continue” header in HttpWebRequest for a single request?](https://stackoverflow.com/questions/14063327/how-to-disable-the-expect-100-continue-header-in-httpwebrequest-for-a-single)
-[Expect:100-continue](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Status/100)
+* [How to disable the “Expect: 100 continue” header in HttpWebRequest for a single request?](https://stackoverflow.com/questions/14063327/how-to-disable-the-expect-100-continue-header-in-httpwebrequest-for-a-single)
+* [Expect:100-continue](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Status/100)
 [100 Continue
 ](http://www.laruence.com/2011/01/20/1840.html)

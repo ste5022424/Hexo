@@ -11,9 +11,13 @@ tags:
 ## Writing your first Django app
 
 ### 建立專案
+
 ```
 django-admin startproject mysite
-```mysite/urls.py
+
+ mysite/urls.py
+```
+
 ![](https://i.imgur.com/BYPZQIH.png)
 
 ### 啟動 Server
@@ -24,7 +28,6 @@ python manage.py runserver
 ![](https://i.imgur.com/JU85NzY.png)
 
 ![](https://i.imgur.com/zDb7byA.png)
-
 
 ### 建立 Polls App
 ```
@@ -76,10 +79,11 @@ urlpatterns = [
 ```
 python manage.py runserver
 ```
+
 ![](https://i.imgur.com/RLjX5c4.png)
 
 
 # 參考
-[Writing your first Django app, part 1](https://docs.djangoproject.com/en/2.1/intro/tutorial01/)
+* [Writing your first Django app, part 1](https://docs.djangoproject.com/en/2.1/intro/tutorial01/)
 
-[Use Django in Visual Studio Code](https://code.visualstudio.com/docs/python/tutorial-django)
+* [Use Django in Visual Studio Code](https://code.visualstudio.com/docs/python/tutorial-django)

@@ -53,4 +53,4 @@ node {
 
 ## 參考
 
-[What's New in Declarative Pipeline 1.3: Sequential Stages](https://jenkins.io/blog/2018/07/02/whats-new-declarative-piepline-13x-sequential-stages/)
+* [What's New in Declarative Pipeline 1.3: Sequential Stages](https://jenkins.io/blog/2018/07/02/whats-new-declarative-piepline-13x-sequential-stages/)

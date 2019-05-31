@@ -93,9 +93,9 @@ fmt.Fprintln(w, "最新消息 Detail ID:", DetailID)
 
 ## 參考網址
 
-  [官方網站](https://golang.org/)
-  [GO WEB API](https://tutorialedge.net/golang/creating-restful-api-with-golang/)
-  [7個GO WEB API框架](https://nordicapis.com/7-frameworks-to-build-a-rest-api-in-go/)
-  [微服務 GO](https://nordicapis.com/writing-microservices-in-go/)
-  [用GO構建 Restful API](https://blog.csdn.net/xingwangc2014/article/details/51623157)
-  [Golang 建構簡單WEB 框架](https://zhuanlan.zhihu.com/p/27604688)
+* [官方網站](https://golang.org/)
+* [GO WEB API](https://tutorialedge.net/golang/creating-restful-api-with-golang/)
+* [7個GO WEB API框架](https://nordicapis.com/7-frameworks-to-build-a-rest-api-in-go/)
+* [微服務 GO](https://nordicapis.com/writing-microservices-in-go/)
+* [用GO構建 Restful API](https://blog.csdn.net/xingwangc2014/article/details/51623157)
+* [Golang 建構簡單WEB 框架](https://zhuanlan.zhihu.com/p/27604688)

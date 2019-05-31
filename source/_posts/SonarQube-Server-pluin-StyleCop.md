@@ -28,5 +28,4 @@ wget http://downloads.sonarsource.com/plugins/org/codehaus/sonar-plugins/styleco
 docker restart sonarqube
 docker logs sonarqube
 ```
-
 ![](https://i.imgur.com/nFq3qfv.png)

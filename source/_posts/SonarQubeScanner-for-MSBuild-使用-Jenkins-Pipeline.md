@@ -98,13 +98,9 @@ node {
 
 ## 參考
 
-[Analyzing with SonarScanner for MSBuild](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+MSBuild)
-[Code Coverage Results Import (C#, VB.NET)](https://docs.sonarqube.org/pages/viewpage.action?pageId=6389770)
-
-[Cross platform code coverage arrives for .NET Core](http://tattoocoder.com/cross-platform-code-coverage-arrives-for-net-core/)
-
-[Collecting test coverage using Coverlet and SonarQube for a .net core project](https://medium.com/agilix/collecting-test-coverage-using-coverlet-and-sonarqube-for-a-net-core-project-ef4a507d4b28)
-
-[Code Coverage Results Import (C#, VB.NET)](https://docs.sonarqube.org/pages/viewpage.action?pageId=6389770#CodeCoverageResultsImport(C#,VB.NET)-OpenCover)
-
-[C# unit testing on a jenkins pipeline](https://medium.com/@toja/c-unit-testing-on-a-jenkins-pipeline-532e6d5dd133)
+* [Analyzing with SonarScanner for MSBuild](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+MSBuild)
+* [Code Coverage Results Import (C#, VB.NET)](https://docs.sonarqube.org/pages/viewpage.action?pageId=6389770)
+* [Cross platform code coverage arrives for .NET Core](http://tattoocoder.com/cross-platform-code-coverage-arrives-for-net-core/)
+* [Collecting test coverage using Coverlet and SonarQube for a .net core project](https://medium.com/agilix/collecting-test-coverage-using-coverlet-and-sonarqube-for-a-net-core-project-ef4a507d4b28)
+* [Code Coverage Results Import (C#, VB.NET)](https://docs.sonarqube.org/pages/viewpage.action?pageId=6389770#CodeCoverageResultsImport(C#,VB.NET)-OpenCover)
+* [C# unit testing on a jenkins pipeline](https://medium.com/@toja/c-unit-testing-on-a-jenkins-pipeline-532e6d5dd133)

@@ -34,6 +34,6 @@ services:
 ```
 
 # 參考
-[dockerhub mysql](https://hub.docker.com/_/mysql)
-[mysql](https://www.mysql.com/)
-[adminer](https://www.adminer.org/)
+* [dockerhub mysql](https://hub.docker.com/_/mysql)
+* [mysql](https://www.mysql.com/)
+* [adminer](https://www.adminer.org/)

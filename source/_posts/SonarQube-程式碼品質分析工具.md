@@ -80,7 +80,5 @@ SonarQube.Scanner.MSBuild.exe end
 
 # 參考
 
-[SonarQube](https://zh.wikipedia.org/wiki/SonarQube)
-[https://www.sonarqube.org/](https://www.sonarqube.org/)
-
-
+* [SonarQube](https://zh.wikipedia.org/wiki/SonarQube)
+* [https://www.sonarqube.org/](https://www.sonarqube.org/)

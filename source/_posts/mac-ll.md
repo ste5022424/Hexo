@@ -15,4 +15,4 @@ alias ll='ls -lG'
 ```
 
 # 參考
-[How can I install the `ll` command on Mac OS X?](https://unix.stackexchange.com/questions/28425/how-can-i-install-the-ll-command-on-mac-os-x)
+* [How can I install the `ll` command on Mac OS X?](https://unix.stackexchange.com/questions/28425/how-can-i-install-the-ll-command-on-mac-os-x)

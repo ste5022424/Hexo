@@ -54,4 +54,4 @@ byte[] aryData = Encoding.UTF8.GetBytes(string.Empty);
 
 # 參考
 
-[Force HttpWebRequest to send client certificate](https://stackoverflow.com/questions/39528973/force-httpwebrequest-to-send-client-certificate)
+* [Force HttpWebRequest to send client certificate](https://stackoverflow.com/questions/39528973/force-httpwebrequest-to-send-client-certificate)

@@ -59,5 +59,5 @@ docker run -d --name=gitea -p 10022:22 -p 10080:3000 -v /var/lib/gitea:/data git
 
 ## 參考
 
-[Gitea](https://docs.gitea.io/zh-tw/)
-[Gitea Docker](https://docs.gitea.io/zh-tw/install-with-docker/)
+* [Gitea](https://docs.gitea.io/zh-tw/)
+* [Gitea Docker](https://docs.gitea.io/zh-tw/install-with-docker/)

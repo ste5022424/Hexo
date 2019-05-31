@@ -179,5 +179,5 @@ docker push gcr.io/[PROJECT-ID]/quickstart-imag:tag1
 docker pull gcr.io/[PROJECT-ID]/quickstart-image:tag1
 ```
 ## 參考
-[官方說明文件](https://cloud.google.com/container-registry/docs/)
-[Authentication](https://cloud.google.com/container-registry/docs/advanced-authentication)
+* [官方說明文件](https://cloud.google.com/container-registry/docs/)
+* [Authentication](https://cloud.google.com/container-registry/docs/advanced-authentication)

@@ -53,6 +53,5 @@ https://www.microsoft.com/zh-tw/sql-server/sql-server-downloads
 
 ## 參考網址
 
-[sql sa 登入失敗(18456)](https://dotblogs.com.tw/messboy000/archive/2014/05/31/145324.aspx)
-[最近sql server 炸了,重新安装后出现登录出现 连接SQL Server:无法连接到127.0.0.1也就是.](https://blog.csdn.net/QQ459932400/article/details/78002633)
- 
+* [sql sa 登入失敗(18456)](https://dotblogs.com.tw/messboy000/archive/2014/05/31/145324.aspx)
+* [最近sql server 炸了,重新安装后出现登录出现 连接SQL Server:无法连接到127.0.0.1也就是.](https://blog.csdn.net/QQ459932400/article/details/78002633)

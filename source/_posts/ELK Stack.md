@@ -199,6 +199,6 @@ USER filebeat
 
 ## 參考
 
-[installing-elastic-stack](https://www.elastic.co/guide/en/elastic-stack/current/installing-elastic-stack.html)
-[deploying-and-scaling](https://www.elastic.co/guide/en/logstash/6.5/deploying-and-scaling.html)
-[官方網站](https://www.elastic.co/cn/elk-stack)
+* [installing-elastic-stack](https://www.elastic.co/guide/en/elastic-stack/current/installing-elastic-stack.html)
+* [deploying-and-scaling](https://www.elastic.co/guide/en/logstash/6.5/deploying-and-scaling.html)
+* [官方網站](https://www.elastic.co/cn/elk-stack)

@@ -96,9 +96,7 @@ node {
 ![](https://i.imgur.com/0AMFpET.png)
 > pipeline 是使用 Groovy語言來撰寫，可以參考 [Groovy’s syntax](http://groovy-lang.org/syntax.html)
 
-```
 # 參考
-
-[Pipeline - Jenkins]https://jenkins.io/doc/book/pipeline/
-[[DevOps自動化-6] Jenkins持續整合、發布](https://dotblogs.com.tw/aken1215/2016/10/11/000455)
-[[持續交付實踐] pipeline：pipeline使用之快速入門](https://testerhome.com/topics/10003)
+* [Pipeline - Jenkins]https://jenkins.io/doc/book/pipeline/
+* [[DevOps自動化-6] Jenkins持續整合、發布](https://dotblogs.com.tw/aken1215/2016/10/11/000455)
+* [[持續交付實踐] pipeline：pipeline使用之快速入門](https://testerhome.com/topics/10003)

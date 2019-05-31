@@ -68,4 +68,4 @@ kubectl get service netcorewebapi
 
 ## 參考
 
-[K8S Quickstart](https://cloud.google.com/kubernetes-engine/docs/quickstart)
+* [K8S Quickstart](https://cloud.google.com/kubernetes-engine/docs/quickstart)

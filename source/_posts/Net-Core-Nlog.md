@@ -259,5 +259,5 @@ docker exec -ti netcorenlog bash
 > [範例檔案](https://github.com/ste5022424/donetcorewebapi)
 
 ## 參考
-[Getting started with ASP.NET Core 2](https://github.com/NLog/NLog.Web/wiki/Getting-started-with-ASP.NET-Core-2)
-[nlog設定](https://github.com/nlog/NLog/wiki/Configuration-file)
+* [Getting started with ASP.NET Core 2](https://github.com/NLog/NLog.Web/wiki/Getting-started-with-ASP.NET-Core-2)
+* [nlog設定](https://github.com/nlog/NLog/wiki/Configuration-file)

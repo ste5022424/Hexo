@@ -80,4 +80,4 @@ npm run HelloNode
 
 # 參考
 
-[建立 第一個Node.js 專案](https://ithelp.ithome.com.tw/articles/10199745)
+* [建立 第一個Node.js 專案](https://ithelp.ithome.com.tw/articles/10199745)

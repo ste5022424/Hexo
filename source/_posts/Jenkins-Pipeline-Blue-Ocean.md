@@ -28,6 +28,6 @@ tags:
 
 ## 參考
 
-[Jenkins Pipeline Blue Ocean](https://jenkins.io/projects/blueocean/)
-[[Day 27] Pipeline 專案 (下)](https://ithelp.ithome.com.tw/articles/10196252?sc=iThelpR)
-[Create a Pipeline in Blue Ocean ](https://jenkins.io/doc/tutorials/create-a-pipeline-in-blue-ocean/)
+* [Jenkins Pipeline Blue Ocean](https://jenkins.io/projects/blueocean/)
+* [[Day 27] Pipeline 專案 (下)](https://ithelp.ithome.com.tw/articles/10196252?sc=iThelpR)
+* [Create a Pipeline in Blue Ocean ](https://jenkins.io/doc/tutorials/create-a-pipeline-in-blue-ocean/)

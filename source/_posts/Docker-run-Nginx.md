@@ -55,4 +55,4 @@ docker run -d --name mynginx -p 1234:80 mynginx:1
 
 # 參考
 
-[https://hub.docker.com/_/nginx/](https://hub.docker.com/_/nginx/)
+* [https://hub.docker.com/_/nginx/](https://hub.docker.com/_/nginx/)

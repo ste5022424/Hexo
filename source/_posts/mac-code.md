@@ -15,4 +15,4 @@ tags:
 
 # 參考
 
-[“code .” Not working in Command Line for Visual Code Studio on OSX/Mac](https://stackoverflow.com/questions/29955500/code-not-working-in-command-line-for-visual-code-studio-on-osx-mac)
+* [“code .” Not working in Command Line for Visual Code Studio on OSX/Mac](https://stackoverflow.com/questions/29955500/code-not-working-in-command-line-for-visual-code-studio-on-osx-mac)

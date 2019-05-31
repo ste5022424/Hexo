@@ -25,5 +25,5 @@ sudo apt-get install dotnet-sdk-2.1
 ```
 
 ## 參考
-[https://dotnet.microsoft.com/download/dotnet-core/2.1](https://dotnet.microsoft.com/download/dotnet-core/2.1)
-[Install .NET Core 2.1 SDK on Linux Ubuntu 16.04 x64](https://dotnet.microsoft.com/download/linux-package-manager/ubuntu16-04/sdk-2.1.502)
+* [https://dotnet.microsoft.com/download/dotnet-core/2.1](https://dotnet.microsoft.com/download/dotnet-core/2.1)
+* [Install .NET Core 2.1 SDK on Linux Ubuntu 16.04 x64](https://dotnet.microsoft.com/download/linux-package-manager/ubuntu16-04/sdk-2.1.502)

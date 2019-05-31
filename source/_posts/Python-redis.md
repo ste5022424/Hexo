@@ -20,7 +20,6 @@ print(r.get('foo'))
 
 ![](https://i.imgur.com/pOuqySo.png)
 
-
 # 參考
 
-[https://pypi.org/project/redis/](https://pypi.org/project/redis/)
+* [https://pypi.org/project/redis/](https://pypi.org/project/redis/)

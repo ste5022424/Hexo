@@ -36,7 +36,5 @@ print(msg)
 
 ![](https://i.imgur.com/NS8tmX1.png)
 
-
-
 ## 參考
-[Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial)
+* [Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial)
