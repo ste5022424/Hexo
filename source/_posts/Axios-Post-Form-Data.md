@@ -21,11 +21,8 @@ npm i qs
 ## Code
 
 ``` javascript
-
 const axios = require('axios');
 const qs = require('qs');
-
-let base64Message = Buffer.from('Node JS Test SMS').toString('base64');
 
 let formdata = qs.stringify({
     Name: 'Andy',
