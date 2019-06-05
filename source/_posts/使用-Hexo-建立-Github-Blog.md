@@ -7,26 +7,30 @@ tags:
 - Hexo
 ---
 
-### 事先安裝 
+## 事先安裝
+
 * [Git](https://git-scm.com/)
 * [Node js](https://https://nodejs.org/en/) 
 * [Visual Studio Code](https://code.visualstudio.com/)
 
-
 ### Github 新增.github.io專案
 
-![](https://i.imgur.com/PO7dlOS.png)
+![Github](https://i.imgur.com/PO7dlOS.png)
 
-### 安裝 Hexo
-```
+## 安裝 Hexo
+
+```bash=
 npm install hexo-cli -g
 ```
+
 ![](https://i.imgur.com/5rz5CHP.png)
 
-### 建立專案
-```
+## 建立專案
+
+```bash=
 hexo init D:\\blog
 ```
+
 ![](https://i.imgur.com/59eoBCu.png)
 
 ### 使用 vs code 開啟
@@ -38,17 +42,24 @@ https://hexo.io/themes/index.html
 ![](https://i.imgur.com/a8KgChZ.png)
 
 #### 取得套件(以 Noise為範例)
+
 ![](https://i.imgur.com/WIA4TRG.png)
-```
+
+```bash=
 git clone https://github.com/iissnan/hexo-theme-next.git ./themes/Noise
 ```
+
 #### 設定 _config.yml
+
 ![](https://i.imgur.com/sdYrMVo.png)
-```
+
+```bash=
 theme: Noise
 ```
-### 啟動server 
+
+### 啟動server
 ![](https://i.imgur.com/Y3UI7EA.png)
+
 ```
 hexo s -p 8080
 ```
@@ -147,7 +158,7 @@ type: "tags"
 ---
 title: 使用 Hexo 建立 Github Blog
 date: 2018-10-17 17:23:06
-tags: 
+tags:
 - Hexo
 categories:
 - 學習
@@ -180,7 +191,5 @@ Hexo Them :https://hexo.io/themes/index.html
 [[Hexo] 快速上手 Hexo 網誌框架](https://oawan.me/2016/easy-hexo-easy-blog/)
 [可能是最詳細的 Hexo + GitHub Pages 搭建部落格的教程](http://www.lovebxm.com/2018/06/24/hexo-github-blog/)
 [用Hexo + Github Pages搭建個人部落格](https://yogapan.github.io/2017/08/11/%E7%94%A8Hexo-Github-Pages%E6%90%AD%E5%BB%BA%E5%80%8B%E4%BA%BA%E9%83%A8%E8%90%BD%E6%A0%BC/#comments)
-
 [Hexo的NexT主题个性化：添加文章阅读量](http://www.jeyzhang.com/hexo-next-add-post-views.html)
-
 [Sign up to Leancloud and create an app](https://github.com/theme-next/hexo-theme-next/blob/master/docs/LEANCLOUD-COUNTER-SECURITY.md)
