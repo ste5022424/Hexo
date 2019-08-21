@@ -6,7 +6,7 @@ categories:
 tags: 
 - Jenkins
 ---
-# 升級 Jenkins ver. 2.151 發生問題
+## 升級 Jenkins ver. 2.151 發生問題
 
 org.apache.commons.jelly.JellyTagException:jar:file:/D:/Jenkins/war/WEB-INF/lib/jenkins-core-2.151.jar!/lib/layout/hasPermission.jelly:35:20: <d:invokeBody> com/trilead/ssh2/crypto/Base64
 
