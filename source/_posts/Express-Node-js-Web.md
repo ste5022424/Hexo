@@ -115,3 +115,4 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 # 參考
 
 * [expressjs](https://expressjs.com/zh-tw/starter/installing.html)
+* [使用Express快速建立環境](https://ithelp.ithome.com.tw/articles/10191816)
